@@ -1,0 +1,109 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Kit",
+    "description": "Basic resume builder with essential templates for beginners.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["10+ templates", "Basic customization", "Export to PDF"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2991/2991108.png"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced resume builder with ATS optimization and premium templates.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Cover letter builder"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+  },
+  {
+    "id": 3,
+    "name": "Career Booster Pack",
+    "description": "Complete toolkit for job seekers including resumes and portfolio.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Portfolio builder",
+      "LinkedIn optimization",
+      "Resume analytics"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828884.png"
+  },
+  {
+    "id": 4,
+    "name": "Interview Prep Suite",
+    "description": "Prepare for interviews with AI-driven mock sessions and feedback.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Mock interviews", "AI feedback", "Question bank"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1048/1048953.png"
+  },
+  {
+    "id": 5,
+    "name": "Portfolio Builder Pro",
+    "description": "Create stunning personal portfolios with ease.",
+    "price": 49.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Custom domains", "Responsive design", "SEO optimization"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1006/1006771.png"
+  },
+  {
+    "id": 6,
+    "name": "Freelancer Toolkit",
+    "description": "All-in-one solution for freelancers to showcase skills and projects.",
+    "price": 29.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Invoice generator", "Client management", "Project tracking"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3064/3064197.png"
+  },
+  {
+    "id": 7,
+    "name": "AI Resume Analyzer",
+    "description": "Get instant feedback on your resume using AI.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Keyword analysis", "Improvement tips", "Score system"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/4712/4712109.png"
+  },
+  {
+    "id": 8,
+    "name": "Ultimate Career Plan",
+    "description": "Long-term career growth plan with personalized guidance.",
+    "price": 99.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Career roadmap", "Skill tracking", "Mentorship access"],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1904/1904425.png"
+  },
+  {
+    "id": 9,
+    "name": "Job Tracker Pro",
+    "description": "Track all your job applications and manage your hiring pipeline efficiently.",
+    "price": 6.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Application tracking",
+      "Interview reminders",
+      "Status dashboard"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2921/2921222.png"
+  }
+]

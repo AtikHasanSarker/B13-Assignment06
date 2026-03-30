@@ -1,0 +1,56 @@
+import { useState } from "react";
+import Products from "./Products";
+import Carts from "./Carts";
+
+const Tools = ({ productsPromise }) => {
+  const [activeTab, setActiveTab] = useState("products");
+  const [carts, setCarts] = useState([]);
+  return (
+    <div className="my-30">
+      <div className="text-center">
+        <h2 className="text-5xl font-extrabold">Premium Digital Tools</h2>
+        <p className="my-4">
+          Choose from our curated collection of premium digital products
+          designed <br /> to boost your productivity and creativity.
+        </p>
+      </div>
+      <div>
+        <div className="tabs justify-center tabs-box bg-transparent">
+          <input
+            type="radio"
+            name="my_tabs_1"
+            className={`tab w-40 rounded-full text-xl ${
+              activeTab === "products"
+                ? "bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white"
+                : ""
+            }`}
+            aria-label="Products"
+            onClick={() => setActiveTab("products")}
+            defaultChecked
+          />
+          <input
+            type="radio"
+            name="my_tabs_1"
+            className={`tab w-40 rounded-full text-xl ${
+              activeTab === "cart"
+                ? "bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white"
+                : ""
+            }`}
+            aria-label={`Cart (${carts.length})`}
+            onClick={() => setActiveTab("cart")}
+          />
+        </div>
+        {activeTab === "products" && (
+          <Products
+            productsPromise={productsPromise}
+            carts={carts}
+            setCarts={setCarts}
+          />
+        )}
+        {activeTab === "cart" && <Carts carts={carts} setCarts={setCarts} />}
+      </div>
+    </div>
+  );
+};
+
+export default Tools;
