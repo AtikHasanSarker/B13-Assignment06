@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Badge from "./components/Badge";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -9,14 +10,19 @@ const getProducts = async () => {
 }
 const productsPromise = getProducts()
 
+
 function App() {
+  const [cartCount, setCartCount] = useState(0);
 
   return (
     <>
-      <Navbar />
+      <Navbar cartCount={cartCount} />
       <Hero />
       <Badge />
-      <Tools productsPromise={productsPromise} />
+      <Tools
+        productsPromise={productsPromise}
+        setCartCount={setCartCount}
+      />
     </>
   );
 }
