@@ -19,7 +19,7 @@ const Product = ({ product, carts, setCarts }) => {
 
   return (
     <div>
-      <div className="space-y-4 p-6 border border-gray-200 rounded-2xl relative">
+      <div className="space-y-4 p-6 border border-gray-200 rounded-2xl relative hover:scale-102 transition-all duration-300">
         <div className="p-4 rounded-full border border-gray-200 w-16">
           <img src={icon} alt="" className="w-8 h-8" />
         </div>

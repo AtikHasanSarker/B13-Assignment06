@@ -7,11 +7,20 @@
     font-family: "Manrope", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 p, li{
     color: #627382;
 }
 #popular li{
     color: white;
+}
+
+footer li:hover{
+    color: white;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 576px) {

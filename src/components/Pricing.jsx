@@ -3,7 +3,7 @@ import { IoMdCheckmark } from 'react-icons/io';
 
 const Pricing = () => {
     return (
-      <div className="py-30">
+      <div id='pricing' className="py-30">
         <div className="max-w-300 mx-auto px-5">
           <div className="text-center">
             <h3 className="text-4xl md:text-5xl font-extrabold">

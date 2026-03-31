@@ -1,6 +1,5 @@
-import { LuShoppingCart } from 'react-icons/lu';
-import { RxHamburgerMenu } from 'react-icons/rx';
-
+import { LuShoppingCart } from "react-icons/lu";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 const Navbar = ({ cartCount }) => {
   return (
@@ -61,10 +60,10 @@ const Navbar = ({ cartCount }) => {
           </ul>
         </div>
         <div className="navbar-end gap-5">
-          <a className="relative">
+          <a href="#cart" className="relative">
             <LuShoppingCart className="text-xl" />
             {cartCount > 0 && (
-              <div className="absolute -top-2 -right-2 bg-red-500 text-white text-[10px] px-1.25 py-px rounded-full">
+              <div className="absolute -top-2 -right-2 bg-red-500 text-white text-[10px] px-1.5 py-px rounded-full">
                 {cartCount}
               </div>
             )}

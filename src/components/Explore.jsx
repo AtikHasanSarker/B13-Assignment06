@@ -13,14 +13,18 @@ const Explore = () => {
           </div>
         </div>
         <div className="grid grid-cols-2 gap-4 mt-6 mb-4">
-          <button className="btn font-bold rounded-full bg-white">
-            <span className="bg-linear-to-r from-[#4f39f6] to-[#9514fa] bg-clip-text text-transparent">
-              Explore Products
-            </span>
-          </button>
-          <button className="btn rounded-full bg-transparent border text-white">
-            View Pricing
-          </button>
+          <a href="#products">
+            <button className="btn font-bold rounded-full bg-white">
+              <span className="bg-linear-to-r from-[#4f39f6] to-[#9514fa] bg-clip-text text-transparent">
+                Explore Products
+              </span>
+            </button>
+          </a>
+          <a href="#pricing">
+            <button className="btn rounded-full bg-transparent border text-white">
+              View Pricing
+            </button>
+          </a>
         </div>
         <div>14-day free trial • No credit card required • Cancel anytime</div>
       </div>

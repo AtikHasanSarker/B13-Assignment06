@@ -9,12 +9,12 @@ const Carts = ({ carts, setCarts }) => {
     toast.success("Payment Successful!")
   }
   return (
-    <div className="p-4 md:p-10 max-w-300 mx-auto border border-gray-200 rounded-lg my-10">
+    <div id='cart' className="p-4 md:p-10 max-w-300 mx-auto border border-gray-200 rounded-lg my-10">
       <h2 className="font-bold text-3xl">Your Cart</h2>
       <div>
         <div className="space-y-4 my-6">
           {carts.map((cart) => (
-            <Cart cart={cart} carts={carts} setCarts={setCarts} />
+            <Cart key={cart.id} cart={cart} carts={carts} setCarts={setCarts} />
           ))}
         </div>
         <div>

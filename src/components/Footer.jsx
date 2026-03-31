@@ -19,30 +19,30 @@ const Footer = () => {
           <div>
             <h3 className="font-medium mb-4 text-white">Product</h3>
             <ul className="space-y-2 text-sm">
-              <li className="hover:text-white cursor-pointer">Features</li>
-              <li className="hover:text-white cursor-pointer">Pricing</li>
-              <li className="hover:text-white cursor-pointer">Templates</li>
-              <li className="hover:text-white cursor-pointer">Integrations</li>
+              <li>Features</li>
+              <li>Pricing</li>
+              <li>Templates</li>
+              <li>Integrations</li>
             </ul>
           </div>
 
           <div>
             <h3 className="font-medium mb-4 text-white">Company</h3>
             <ul className="space-y-2 text-sm">
-              <li className="hover:text-white cursor-pointer">About</li>
-              <li className="hover:text-white cursor-pointer">Blog</li>
-              <li className="hover:text-white cursor-pointer">Careers</li>
-              <li className="hover:text-white cursor-pointer">Press</li>
+              <li>About</li>
+              <li>Blog</li>
+              <li>Careers</li>
+              <li>Press</li>
             </ul>
           </div>
 
           <div>
             <h3 className="font-medium mb-4 text-white">Resources</h3>
             <ul className="space-y-2 text-sm">
-              <li className="hover:text-white cursor-pointer">Documentation</li>
-              <li className="hover:text-white cursor-pointer">Help Center</li>
-              <li className="hover:text-white cursor-pointer">Community</li>
-              <li className="hover:text-white cursor-pointer">Contact</li>
+              <li>Documentation</li>
+              <li>Help Center</li>
+              <li>Community</li>
+              <li>Contact</li>
             </ul>
           </div>
 

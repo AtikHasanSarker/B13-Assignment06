@@ -7,9 +7,8 @@ const Tools = ({ productsPromise, setCartCount }) => {
   const [carts, setCarts] = useState([]);
   setCartCount(carts.length);
 
-
   return (
-    <div>
+    <div id="products">
       <div className="my-30 px-5">
         <div className="text-center">
           <h2 className="text-4xl md:text-5xl font-extrabold">

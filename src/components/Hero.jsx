@@ -27,9 +27,11 @@ const Hero = () => {
                 faster today. <br /> Explore Products
               </p>
               <div className="flex gap-4">
-                <button className="btn text-white rounded-full bg-linear-to-r from-[#4f39f6] to-[#9514fa] p-5">
-                  Explore Products
-                </button>
+                <a href="#products">
+                  <button className="btn text-white rounded-full bg-linear-to-r from-[#4f39f6] to-[#9514fa] p-5">
+                    Explore Products
+                  </button>
+                </a>
                 <div className="p-0.5 rounded-full bg-linear-to-r from-[#4f39f6] to-[#9514fa]">
                   <button className="btn text-[#4f39f6] hover:text-white font-bold hover:bg-linear-to-r hover:from-[#4f39f6] hover:to-[#9514fa] rounded-full flex items-center gap-1">
                     <span>
