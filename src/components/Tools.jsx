@@ -17,31 +17,33 @@ const Tools = ({ productsPromise, setCartCount }) => {
           </p>
         </div>
         <div>
-          <div className="tabs justify-center tabs-box bg-transparent">
-            <input
-              type="radio"
-              name="my_tabs_1"
-              className={`tab w-40 rounded-full text-xl ${
-                activeTab === "products"
-                  ? "bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white"
-                  : ""
-              }`}
-              aria-label="Products"
-              onClick={() => setActiveTab("products")}
-              defaultChecked
-            />
-            <input
-              id="cart"
-              type="radio"
-              name="my_tabs_1"
-              className={`tab w-40 rounded-full text-xl ${
-                activeTab === "cart"
-                  ? "bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white"
-                  : ""
-              }`}
-              aria-label={`Cart (${carts.length})`}
-              onClick={() => setActiveTab("cart")}
-            />
+          <div className="tabs justify-center">
+            <div className=" tabs-box bg-transparent border border-gray-200 rounded-full">
+              <input
+                type="radio"
+                name="my_tabs_1"
+                className={`tab w-40 rounded-full text-xl ${
+                  activeTab === "products"
+                    ? "bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white"
+                    : ""
+                }`}
+                aria-label="Products"
+                onClick={() => setActiveTab("products")}
+                defaultChecked
+              />
+              <input
+                id="cart"
+                type="radio"
+                name="my_tabs_1"
+                className={`tab w-40 rounded-full text-xl ${
+                  activeTab === "cart"
+                    ? "bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white"
+                    : ""
+                }`}
+                aria-label={`Cart (${carts.length})`}
+                onClick={() => setActiveTab("cart")}
+              />
+            </div>
           </div>
           {activeTab === "products" && (
             <Products
