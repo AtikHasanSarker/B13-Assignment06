@@ -8,7 +8,9 @@ const Hero = () => {
       <div className="max-w-300 mx-auto px-5">
         <div className="hero my-21.25">
           <div className="flex flex-col lg:flex-row-reverse gap-15 items-center">
-            <img src={Banner} className="max-w-125 rounded-lg" />
+            <div>
+              <img src={Banner} className="md:max-w-125 rounded-lg" />
+            </div>
             <div className="space-y-4">
               <button className="flex items-center gap-2 bg-[#E1E7FF] px-4 py-2 rounded-full font-medium">
                 <img src={PulseImg} alt="" />
@@ -29,7 +31,7 @@ const Hero = () => {
                   Explore Products
                 </button>
                 <div className="p-0.5 rounded-full bg-linear-to-r from-[#4f39f6] to-[#9514fa]">
-                  <button className="btn text-[#4f39f6] hover:text-white font-bold hover:bg-linear-to-r hover:from-[#4f39f6] hover:to-[#9514fa] rounded-full flex items-center gap-2.5">
+                  <button className="btn text-[#4f39f6] hover:text-white font-bold hover:bg-linear-to-r hover:from-[#4f39f6] hover:to-[#9514fa] rounded-full flex items-center gap-1">
                     <span>
                       <IoPlayOutline className="text-xl" />
                     </span>

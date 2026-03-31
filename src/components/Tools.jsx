@@ -3,14 +3,18 @@ import Products from "./Products";
 import Carts from "./Carts";
 
 const Tools = ({ productsPromise, setCartCount }) => {
-    const [activeTab, setActiveTab] = useState("products");
-    const [carts, setCarts] = useState([]);
-    setCartCount(carts.length);
+  const [activeTab, setActiveTab] = useState("products");
+  const [carts, setCarts] = useState([]);
+  setCartCount(carts.length);
+
+
   return (
     <div>
       <div className="my-30 px-5">
         <div className="text-center">
-          <h2 className="text-4xl md:text-5xl font-extrabold">Premium Digital Tools</h2>
+          <h2 className="text-4xl md:text-5xl font-extrabold">
+            Premium Digital Tools
+          </h2>
           <p className="my-4">
             Choose from our curated collection of premium digital products
             designed <br /> to boost your productivity and creativity.
@@ -22,7 +26,7 @@ const Tools = ({ productsPromise, setCartCount }) => {
               <input
                 type="radio"
                 name="my_tabs_1"
-                className={`tab w-40 rounded-full text-xl ${
+                className={`tab w-30 md:w-40 rounded-full text-xl ${
                   activeTab === "products"
                     ? "bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white"
                     : ""
@@ -35,7 +39,7 @@ const Tools = ({ productsPromise, setCartCount }) => {
                 id="cart"
                 type="radio"
                 name="my_tabs_1"
-                className={`tab w-40 rounded-full text-xl ${
+                className={`tab w-30 md:w-40 rounded-full text-xl ${
                   activeTab === "cart"
                     ? "bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white"
                     : ""

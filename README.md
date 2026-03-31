@@ -1,16 +1,26 @@
-# React + Vite
+📌 README.md Content
+🚀 Project Name
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DigiTools – Premium Digital Tools Buying Platform
 
-Currently, two official plugins are available:
+ℹ️ Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+DigiTools is a modern web application where users can explore and purchase premium digital tools designed to boost productivity and creativity. The platform provides multiple pricing plans, categorized digital products, and a smooth user experience with cart functionality. It is built with a clean UI and focuses on simplicity, usability, and scalability.
 
-## React Compiler
+🛠️ Technologies Used
+- React.js
+- Tailwind CSS
+- Daisy UI
+- JavaScript (ES6+)
+- Vite
+- React-Icons (NPM Package)
+- React-Toastify (NPM Package)
+- JSON (for product data)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛞 Key Features
+1. Dynamic Product & Pricing System
+    Users can browse different digital tools with various pricing models (monthly, yearly, one-time) and choose suitable plans.
+2. Shopping Cart Functionality
+    Users can add products to the cart and track selected items dynamically from the navbar.
+3. Modern UI with Responsive Design
+    Clean, attractive, and fully responsive design with smooth layout, badges (popular, new, best seller), and interactive components.

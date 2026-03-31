@@ -2,7 +2,7 @@ import { LuShoppingCart } from 'react-icons/lu';
 import { RxHamburgerMenu } from 'react-icons/rx';
 
 
-const Navbar = ({ cartCount, setActiveTab }) => {
+const Navbar = ({ cartCount }) => {
   return (
     <div className="shadow-sm sticky top-0 bg-white z-50">
       <div className="navbar max-w-300 mx-auto bg-base-100 text-[#101727] font-semibold">
@@ -32,9 +32,12 @@ const Navbar = ({ cartCount, setActiveTab }) => {
               <li>
                 <a>FAQ</a>
               </li>
+              <li>
+                <a>Logout</a>
+              </li>
             </ul>
           </div>
-          <a className="text-3xl md:text-4xl font-bold bg-linear-to-b from-[#4f39f6] to-[#9514fa] bg-clip-text text-transparent py-4">
+          <a className="text-xl md:text-4xl font-bold bg-linear-to-b from-[#4f39f6] to-[#9514fa] bg-clip-text text-transparent py-4">
             DigiTools
           </a>
         </div>
@@ -58,7 +61,7 @@ const Navbar = ({ cartCount, setActiveTab }) => {
           </ul>
         </div>
         <div className="navbar-end gap-5">
-          <a onClick={() => setActiveTab("cart")} className="relative">
+          <a className="relative">
             <LuShoppingCart className="text-xl" />
             {cartCount > 0 && (
               <div className="absolute -top-2 -right-2 bg-red-500 text-white text-[10px] px-1.25 py-px rounded-full">
@@ -66,7 +69,9 @@ const Navbar = ({ cartCount, setActiveTab }) => {
               </div>
             )}
           </a>
-          <a href="/">Logout</a>
+          <a className="hidden md:flex" href="/">
+            Logout
+          </a>
           <a className="btn bg-linear-to-r from-[#4f39f6] to-[#9514fa] rounded-full text-white">
             Get Started
           </a>

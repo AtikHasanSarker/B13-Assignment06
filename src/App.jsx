@@ -15,6 +15,7 @@ const getProducts = async () => {
 
 const productsPromise = getProducts()
 
+
 function App() {
   const [cartCount, setCartCount] = useState(0);
 
@@ -23,11 +24,14 @@ function App() {
       <Navbar cartCount={cartCount} />
       <Hero />
       <Badge />
-      <Tools productsPromise={productsPromise} setCartCount={setCartCount} />
+      <Tools
+        productsPromise={productsPromise}
+        setCartCount={setCartCount}
+      />
       <Steps />
-      <Pricing/>
-      <Explore/>
-      <Footer/>
+      <Pricing />
+      <Explore />
+      <Footer />
     </>
   );
 }
