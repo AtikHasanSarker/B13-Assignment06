@@ -10,7 +10,7 @@ const Navbar = ({ cartCount, setActiveTab }) => {
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <div>
-                <RxHamburgerMenu className="text-2xl font-bold"></RxHamburgerMenu>
+                <RxHamburgerMenu className="text-xl font-bold"></RxHamburgerMenu>
               </div>
             </div>
             <ul
@@ -34,7 +34,7 @@ const Navbar = ({ cartCount, setActiveTab }) => {
               </li>
             </ul>
           </div>
-          <a className="text-4xl font-bold bg-linear-to-b from-[#4f39f6] to-[#9514fa] bg-clip-text text-transparent p-6">
+          <a className="text-3xl md:text-4xl font-bold bg-linear-to-b from-[#4f39f6] to-[#9514fa] bg-clip-text text-transparent py-4">
             DigiTools
           </a>
         </div>
@@ -57,7 +57,7 @@ const Navbar = ({ cartCount, setActiveTab }) => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end gap-6">
+        <div className="navbar-end gap-5">
           <a onClick={() => setActiveTab("cart")} className="relative">
             <LuShoppingCart className="text-xl" />
             {cartCount > 0 && (

@@ -4,9 +4,9 @@ import { IoMdCheckmark } from 'react-icons/io';
 const Pricing = () => {
     return (
       <div className="py-30">
-        <div className="max-w-300 mx-auto">
+        <div className="max-w-300 mx-auto px-5">
           <div className="text-center">
-            <h3 className="text-5xl font-extrabold">
+            <h3 className="text-4xl md:text-5xl font-extrabold">
               Simple, Transparent Pricing
             </h3>
             <p className="my-4">
@@ -22,7 +22,7 @@ const Pricing = () => {
               </div>
               <div>
                 <span className="text-4xl font-bold">$0</span>
-                <p className="text-xl">/Month</p>
+                <span className="text-xl">/Month</span>
               </div>
               <ul>
                 <li className="flex gap-2 items-center">
@@ -60,7 +60,7 @@ const Pricing = () => {
                 <span className="text-4xl font-bold">$29</span>
                 <span className="text-xl">/Month</span>
               </div>
-              <ul>
+              <ul id='popular'>
                 <li className="flex gap-2 items-center">
                   <IoMdCheckmark />
                   Access to all premium tools
@@ -99,7 +99,7 @@ const Pricing = () => {
               </div>
               <div>
                 <span className="text-4xl font-bold">$99</span>
-                <p className="text-xl">/Month</p>
+                <span className="text-xl">/Month</span>
               </div>
               <ul>
                 <li className="flex gap-2 items-center">

@@ -7,6 +7,15 @@
     font-family: "Manrope", sans-serif;
 }
 
-p{
+p, li{
     color: #627382;
+}
+#popular li{
+    color: white;
+}
+
+@media screen and (max-width: 576px) {
+    br{
+        display: none;
+    }
 }

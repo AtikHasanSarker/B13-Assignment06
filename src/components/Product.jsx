@@ -25,10 +25,10 @@ const Product = ({ product, carts, setCarts }) => {
         </div>
         <h4 className="text-2xl font-bold">{name}</h4>
         <p>{description}</p>
-        <p>
-          <span className="text-2xl font-bold">${price}</span>/{period}
-          <span></span>
-        </p>
+        <div>
+          <span className="text-2xl font-bold">${price}</span>
+          <span className="text-[#627382]">/{period}</span>
+        </div>
         <div>
           {features.map((i) => (
             <li className="flex gap-2 list-none items-baseline-last">
@@ -56,7 +56,7 @@ const Product = ({ product, carts, setCarts }) => {
         </div>
 
         <div
-          className={`badge absolute top-3 right-3 ${tag == "popular" && "bg-[#E1E7FF] text-[#4F39F6]"} ${tag == "best seller" && "bg-[#FEF3C6] text-[#BB4D00]"} ${tag == "new" && "bg-[#DBFCE7] text-[#0A883E]"}`}
+          className={`badge rounded-full p-4 absolute top-3 right-3 ${tag == "popular" && "bg-[#E1E7FF] text-[#4F39F6]"} ${tag == "best seller" && "bg-[#FEF3C6] text-[#BB4D00]"} ${tag == "new" && "bg-[#DBFCE7] text-[#0A883E]"}`}
         >
           {tag}
         </div>

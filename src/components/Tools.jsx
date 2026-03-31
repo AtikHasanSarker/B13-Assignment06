@@ -8,9 +8,9 @@ const Tools = ({ productsPromise, setCartCount }) => {
     setCartCount(carts.length);
   return (
     <div>
-      <div className="my-30">
+      <div className="my-30 px-5">
         <div className="text-center">
-          <h2 className="text-5xl font-extrabold">Premium Digital Tools</h2>
+          <h2 className="text-4xl md:text-5xl font-extrabold">Premium Digital Tools</h2>
           <p className="my-4">
             Choose from our curated collection of premium digital products
             designed <br /> to boost your productivity and creativity.

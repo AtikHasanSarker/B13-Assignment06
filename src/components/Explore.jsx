@@ -2,9 +2,9 @@ import React from 'react';
 
 const Explore = () => {
     return (
-      <div className="bg-linear-to-r from-[#4f39f6] to-[#9514fa] py-30 flex items-center flex-col text-white">
+      <div className="bg-linear-to-r from-[#4f39f6] to-[#9514fa] py-30 px-5 flex items-center flex-col text-white">
         <div className="text-center">
-          <h3 className="text-5xl font-extrabold">
+          <h3 className="text-4xl md:text-5xl font-extrabold">
             Ready to Transform Your Workflow?
           </h3>
           <div className="my-4">
