@@ -20,8 +20,8 @@ const Hero = () => {
               </h1>
               <p className="text-[#627382] mb-4 text-[18px]">
                 Access premium AI tools, design assets, templates, and
-                productivity software—all in one place. Start creating faster
-                today. Explore Products
+                productivity <br /> software—all in one place. Start creating faster
+                today. <br /> Explore Products
               </p>
               <div className="flex gap-4">
                 <button className="btn text-white rounded-full bg-linear-to-r from-[#4f39f6] to-[#9514fa] p-5">
